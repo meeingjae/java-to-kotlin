@@ -1,4 +1,4 @@
-package chapter2
+package com.javatokotlin.chapter2
 
 fun main() {
     val abc: String = "ABC"

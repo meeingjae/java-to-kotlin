@@ -1,4 +1,4 @@
-package chapter1
+package com.javatokotlin.chapter1
 
 fun main() {
     var number1: Long = 10L // 가변
