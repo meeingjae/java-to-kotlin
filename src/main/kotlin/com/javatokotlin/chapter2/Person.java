@@ -1,4 +1,4 @@
-package chapter2;
+package com.javatokotlin.chapter2;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
