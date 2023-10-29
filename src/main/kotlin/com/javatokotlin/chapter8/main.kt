@@ -1,4 +1,4 @@
-package com.javatokotlin.chapter7
+package com.javatokotlin.chapter8
 
 import com.javatokotlin.chapter8.PrintAllUnit
 import com.javatokotlin.chapter8.RepeatUnit
