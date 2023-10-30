@@ -18,4 +18,3 @@
   * 커스텀 getter, setter는 컴파일 시 함수로 변환된다
   * 무한 루프 방지를 위해 field라는 키워드를 사용한다
     * 이를 backing field 라고 부른다
-  * 
