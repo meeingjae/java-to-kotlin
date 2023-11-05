@@ -2,9 +2,11 @@
 
 * `Generic 제약`
   * 클래스 선언부에 Generic 제약을 걸 수 있다
+  * `where` 키워드를 활용할 수도 있다
     * ex) `class Cage<T> (val animal:T) where T : Animal, T : Comparable<T>`
       * 위 예시에서 `T` 타입은 `Animal` 의 하위 타입이어야하고 (행동이 Animal로 제한), Comparable 자기자신을 구현하고 있어야 한다는 제약을 걸 수 있다
     * Generic 제약으로 `T : Any` 를 선언해주면 null 값을 방지할 수 있다. (null은 Any의 하위 타입이 아니기 때문이다)
+    * 선언부에 Generic Type을 명시해도 된다
       * ex) `class Cage<T : Any>`
         * `val cage:Cage<Animal?>()` --> 에러. - null은 Any 타입의 하위 타입이 아니기에 컴파일 에러
 * `Generic 함수` 
@@ -14,4 +16,3 @@
   * Generic 함수를 사용하면, 유연한 코딩이 가능해진다
     * ex) hasInterSection (교집합 함수) 를 확장함수로 구현하고자 할 때
       * Generic으로 선언하면 String,Int,Long과 같은 모든 타입에 동일한 함수를 선언하지 않아도 된다
-      * 
