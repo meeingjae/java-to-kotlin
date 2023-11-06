@@ -5,14 +5,14 @@ fun main() {
     val person = Person8()
     val person2 = Person8()
     person.name = "abc"
-    println(person.getName())
+    println(person.getFullName())
 //    println(person2.getName()) // error - name 프로퍼티 초기화 필요
 }
 
 class Person8 {
     lateinit var name: String
 
-    fun getName(): String {
+    fun getFullName(): String {
         return this.name
     }
 }
