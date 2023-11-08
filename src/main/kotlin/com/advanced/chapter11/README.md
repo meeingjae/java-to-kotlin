@@ -15,4 +15,3 @@
     * 상속보단 합성
     * 인터페이스를 구현하고, 상위 클래스르 상속받도록 구현하여 중복 코드를 제거할 수 있음
         * ex) `class GreenApple(val apple:Apple) : Fruit by apple { override val .... } `
-  
